@@ -130,6 +130,7 @@ web/
   README.md
   CNAME
   .nojekyll
+  .well-known/security.txt
   index.html
   styles.css
   contact.html

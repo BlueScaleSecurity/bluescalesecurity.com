@@ -1,0 +1,3 @@
+Contact: mailto:justin@bluescalesecurity.com
+Preferred-Languages: en
+Canonical: https://bluescalesecurity.com/.well-known/security.txt
