@@ -136,14 +136,15 @@ web/
   js/main.js
   services/
     index.html
-    assessment.html
-    hardening.html
-    ransomware-readiness.html
+    assessment-hardening.html
+    ransomware-readiness.html   # Backup & ransomware readiness
     field-site-hygiene.html
     networking.html
-    backups.html
     business-continuity.html
     identity-access.html
+    assessment.html             # thin redirect → assessment-hardening
+    hardening.html              # thin redirect → assessment-hardening
+    backups.html                # thin redirect → ransomware-readiness
   tools/
     index.html
     posture-scorecard.html   # request-a-scan CTA + #scorecard-embed slot
@@ -151,7 +152,7 @@ web/
 
 ## Hard rules (content)
 
-- Defensive cybersecurity only — assessments, hardening, ransomware readiness, OT/IT hygiene, networking, backups, BCP, identity & access.
+- Defensive cybersecurity only — assessment & hardening, backup & ransomware readiness, OT/IT hygiene, networking, BCP, identity & access.
 - Zero offensive / exploit content or links.
 - No fake client logos, metrics, or case studies.
 
