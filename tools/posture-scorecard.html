@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Posture scorecard — BlueScale Security</title>
+  <meta name="description" content="Request a BlueScale Security external posture scorecard for a domain you own. Authorized, defensive checks only — no live browser scanning.">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="../index.html">BlueScale <span>Security</span></a>
+      <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false">Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="../services/index.html">Services</a></li>
+          <li><a href="index.html" aria-current="page">Tools</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <header class="page-hero">
+      <div class="wrap">
+        <span class="eyebrow">Tools</span>
+        <h1>Posture scorecard</h1>
+        <p class="lead">An authorized external posture check for a domain you own — HTTPS, basic security headers, email auth (SPF/DMARC), and simple hygiene files. Defensive only. We do not run live scans from this page.</p>
+      </div>
+    </header>
+    <section class="section">
+      <div class="wrap">
+        <div class="embed-slot" role="status">
+          <div>
+            <strong>Request a scan</strong>
+            Tell us the domain you own (or are authorized to assess). We run the scorecard offline with an authorization gate and send back a plain HTML/JSON handout — score, grade, findings, and fix-next items.
+          </div>
+        </div>
+        <!--
+          SLOT: #scorecard-embed
+          v1 public UX = request-a-scan CTA only (no browser live checks).
+          Later: optional display of served HTML/JSON artifacts or iframe of a static handout.
+          Never embed a public client-side live scanner.
+        -->
+        <div id="scorecard-embed" aria-hidden="true"></div>
+        <p style="margin-top: 1.5rem;">
+          <a class="btn btn-primary" href="../contact.html">Request a scan</a>
+          <a class="btn btn-outline" href="index.html" style="margin-left: 0.5rem;">Back to tools</a>
+        </p>
+        <p class="intro" style="margin-top: 2rem;">
+          What this is not: a penetration test, exploit validation, or a free scan of someone else’s systems. You must own the domain or have written authorization.
+        </p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p><strong>BlueScale Security</strong></p>
+      <p>West Texas · Defensive cybersecurity</p>
+    </div>
+  </footer>
+  <script src="../js/main.js" defer></script>
+</body>
+</html>
