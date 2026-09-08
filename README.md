@@ -140,6 +140,9 @@ web/
     hardening.html
     ransomware-readiness.html
     field-site-hygiene.html
+    networking.html
+    backups.html
+    business-continuity.html
   tools/
     index.html
     posture-scorecard.html   # request-a-scan CTA + #scorecard-embed slot
@@ -147,15 +150,15 @@ web/
 
 ## Hard rules (content)
 
-- Defensive cybersecurity only — assessments, hardening, ransomware readiness, OT/IT hygiene.
+- Defensive cybersecurity only — assessments, hardening, ransomware readiness, OT/IT hygiene, networking, backups, BCP.
 - Zero offensive / exploit content or links.
 - No fake client logos, metrics, or case studies.
 
 ## Open questions for CoS / Lead
 
 1. **Form backend** — Formspree, Cloudflare Workers, Netlify Forms, or something else? Replace `mailto:` when chosen. (GH Pages has no server forms.)
-2. **GitHub repo** — name, user vs org, public vs private — CoS coordinates; box `gh` not logged in yet.
+2. **GitHub repo** — live at `BlueScaleSecurity/bluescalesecurity.com` (Pages from `main` `/`).
 3. **Brand colors / logo** — Current palette is provisional blue/slate.
 4. **Legal entity name for footer** — Exact DBA / LLC string.
-5. **Contact email** — Confirm production address (placeholder `hello@bluescalesecurity.com`).
+5. **Contact email** — ~~placeholder~~ now `justin@bluescalesecurity.com` (confirmed).
 6. **Scorecard backend later** — who hosts the authorized CLI runner after Pages v1.
