@@ -143,6 +143,7 @@ web/
     networking.html
     backups.html
     business-continuity.html
+    identity-access.html
   tools/
     index.html
     posture-scorecard.html   # request-a-scan CTA + #scorecard-embed slot
@@ -150,7 +151,7 @@ web/
 
 ## Hard rules (content)
 
-- Defensive cybersecurity only — assessments, hardening, ransomware readiness, OT/IT hygiene, networking, backups, BCP.
+- Defensive cybersecurity only — assessments, hardening, ransomware readiness, OT/IT hygiene, networking, backups, BCP, identity & access.
 - Zero offensive / exploit content or links.
 - No fake client logos, metrics, or case studies.
 
