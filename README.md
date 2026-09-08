@@ -133,6 +133,7 @@ web/
   index.html
   styles.css
   contact.html
+  about.html
   js/main.js
   services/
     index.html
