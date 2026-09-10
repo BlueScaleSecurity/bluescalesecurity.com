@@ -160,7 +160,7 @@ web/
 
 ## Open questions for CoS / Lead
 
-1. **Form backend** — Formspree, Cloudflare Workers, Netlify Forms, or something else? Replace `mailto:` when chosen. (GH Pages has no server forms.)
+1. **Form backend** — **Formspree** wired on `contact.html` (`https://formspree.io/f/moeqyyvn` → justin@bluescalesecurity.com). Confirm first submission in Formspree dashboard if they ask to verify the form.
 2. **GitHub repo** — live at `BlueScaleSecurity/bluescalesecurity.com` (Pages from `main` `/`).
 3. **Brand colors / logo** — Current palette is provisional blue/slate.
 4. **Legal entity name for footer** — Exact DBA / LLC string.

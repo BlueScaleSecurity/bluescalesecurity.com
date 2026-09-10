@@ -30,17 +30,17 @@
       <div class="wrap">
         <h1>Contact / intake</h1>
         <p class="lead">
-          Share a little about your company and what you need. Messages go to
+          Share a little about your company and what you need. Submissions go to
           <a href="mailto:justin@bluescalesecurity.com">justin@bluescalesecurity.com</a>
-          (mailto for now — a proper form backend can come later).
+          via Formspree — or email that address directly.
         </p>
       </div>
     </header>
 
     <section class="section">
       <div class="wrap">
-        <!-- Form backend TBD: replace action with form service or API when decided -->
-        <form class="form" action="mailto:justin@bluescalesecurity.com" method="post" enctype="text/plain">
+        <form class="form" action="https://formspree.io/f/moeqyyvn" method="POST">
+          <input type="hidden" name="_subject" value="BlueScale Security — website intake">
           <p class="field">
             <label for="name">Name</label>
             <input id="name" name="name" type="text" autocomplete="name" required>
@@ -75,7 +75,7 @@
             <button class="btn btn-primary" type="submit">Send message</button>
           </p>
           <p class="form-note">
-            Opens your mail client to justin@bluescalesecurity.com. A web form backend can replace mailto later if you want.
+            We’ll reply from justin@bluescalesecurity.com. Prefer email? Use that address directly.
           </p>
         </form>
       </div>
