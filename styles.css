@@ -39,7 +39,6 @@ body {
   font-size: 1.0625rem;
   line-height: 1.65;
   color: var(--slate-900);
-  background: var(--white);
 }
 
 img {
@@ -121,7 +120,6 @@ textarea:focus-visible {
   height: 36px;
   border-radius: 0.35rem;
   flex-shrink: 0;
-  background: var(--white);
 }
 
 .logo-text span {
@@ -243,7 +241,6 @@ textarea:focus-visible {
 }
 
 .btn-outline {
-  background: var(--white);
   color: var(--blue-700);
   border-color: var(--blue-600);
 }
@@ -334,7 +331,6 @@ textarea:focus-visible {
 }
 
 .card {
-  background: var(--white);
   border: 1px solid var(--slate-200);
   border-radius: calc(var(--radius) + 0.15rem);
   padding: 1.35rem 1.25rem;
@@ -389,7 +385,6 @@ textarea:focus-visible {
 }
 
 .who-item {
-  background: var(--white);
   border-left: 4px solid var(--blue-500);
   padding: 1rem 1.15rem;
   border-radius: 0 var(--radius) var(--radius) 0;
@@ -520,7 +515,6 @@ textarea:focus-visible {
   padding: 0.65rem 0.75rem;
   border: 1px solid var(--slate-500);
   border-radius: var(--radius);
-  background: var(--white);
   color: var(--slate-900);
 }
 
