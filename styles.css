@@ -105,6 +105,9 @@ textarea:focus-visible {
 }
 
 .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
   font-weight: 700;
   font-size: 1.125rem;
   letter-spacing: -0.02em;
@@ -112,7 +115,16 @@ textarea:focus-visible {
   text-decoration: none;
 }
 
-.logo span {
+.logo-mark {
+  display: block;
+  width: 36px;
+  height: 36px;
+  border-radius: 0.35rem;
+  flex-shrink: 0;
+  background: var(--white);
+}
+
+.logo-text span {
   font-weight: 500;
   opacity: 0.85;
 }
@@ -568,3 +580,4 @@ textarea:focus-visible {
   font-size: 0.85rem;
   margin-top: 0.75rem;
 }
+
