@@ -11,7 +11,7 @@ Draft static site for **bluescalesecurity.com**. Audience: oil & gas, agricultur
 **Why not Next/Astro yet**
 
 - Host cheaply on GitHub Pages (or Cloudflare Pages / Netlify later if needed).
-- Tools scorecard runs **offline / backend-gated** — not live in the public browser.
+- Posture scorecard is a **request we run and deliver** — not a public live scanner or client-operated app.
 - Justin can edit HTML/CSS directly.
 
 **Graduate later**
@@ -115,13 +115,9 @@ Do **not** use wildcard DNS (`*.bluescalesecurity.com`) — GitHub warns this en
 
 All asset and nav links are **relative** (`styles.css`, `services/…`, `../contact.html`, etc.). They work when this tree is the site root on Pages (custom domain + publish from `/`). Prefer that over a project-site subpath.
 
-## Scorecard / `#scorecard-embed` (v1)
+## Tools packaging
 
-CLI tool lives at `/workspace/bluescale/tools/posture-scorecard/` (not in this Pages tree).
-
-**Hard rule:** never run live checks from the public browser. Prospect submits an owned domain → backend auth gate → `python scorecard.py … --i-am-authorized` → serve JSON/HTML artifacts.
-
-Until hosting has a backend, the public page is a **“Request a scan”** CTA (contact form) — not an iframe live scanner. `#scorecard-embed` remains a reserved empty slot for a later offline/handout display if needed.
+Public Tools pages market **assessments BlueScale runs and delivers**. Do not publish operator tooling, CLIs, repos, or how scoring works. The posture scorecard page is a **“Request a scan”** CTA only (contact form). Other cards point to contact or related service pages.
 
 ## File map
 
@@ -149,7 +145,7 @@ web/
     backups.html                # thin redirect → ransomware-readiness
   tools/
     index.html
-    posture-scorecard.html   # request-a-scan CTA + #scorecard-embed slot
+    posture-scorecard.html   # free request-a-scan CTA
 ```
 
 ## Hard rules (content)
@@ -165,4 +161,4 @@ web/
 3. **Brand colors / logo** — Current palette is provisional blue/slate.
 4. **Legal entity name for footer** — Exact DBA / LLC string.
 5. **Contact email** — ~~placeholder~~ now `justin@bluescalesecurity.com` (confirmed).
-6. **Scorecard backend later** — who hosts the authorized CLI runner after Pages v1.
+6. **Scorecard delivery ops** — internal only; never expose runner details on the public site.

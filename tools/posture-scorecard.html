@@ -30,7 +30,7 @@
       <div class="wrap">
         <span class="eyebrow">Tools</span>
         <h1>Posture scorecard</h1>
-        <p class="lead">An authorized external posture check for a domain you own — HTTPS, basic security headers, email auth (SPF/DMARC), and simple hygiene files. Defensive only. We do not run live scans from this page.</p>
+        <p class="lead">An authorized external posture check for a domain you own. We run it and send a plain handout. Defensive only — we do not run live scans from this page.</p>
       </div>
     </header>
     <section class="section">
@@ -38,15 +38,10 @@
         <div class="embed-slot" role="status">
           <div>
             <strong>Request a scan</strong>
-            Tell us the domain you own (or are authorized to assess). We run the scorecard offline with an authorization gate and send back a plain HTML/JSON handout — score, grade, findings, and fix-next items.
+            Tell us the domain you own (or are authorized to assess). We run the scorecard and send back a plain handout — score, grade, findings, and fix-next items.
           </div>
         </div>
-        <!--
-          SLOT: #scorecard-embed
-          v1 public UX = request-a-scan CTA only (no browser live checks).
-          Later: optional display of served HTML/JSON artifacts or iframe of a static handout.
-          Never embed a public client-side live scanner.
-        -->
+        <!-- Reserved display slot. Public page is request-a-scan only; no client-side live scanner. -->
         <div id="scorecard-embed" aria-hidden="true"></div>
         <p style="margin-top: 1.5rem;">
           <a class="btn btn-primary" href="../contact.html">Request a scan</a>
