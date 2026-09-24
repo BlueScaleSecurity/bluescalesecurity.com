@@ -33,7 +33,7 @@ Treat **this `web/` folder’s contents as the Git repo root** (not a monorepo w
   README.md
   js/
   services/
-  tools/
+  assessments/ (tools/ redirects)
 ```
 
 That way Pages → **Deploy from a branch** → `main` → **/ (root)** works with **zero GitHub Actions**.
@@ -117,7 +117,7 @@ All asset and nav links are **relative** (`styles.css`, `services/…`, `../cont
 
 ## Tools packaging
 
-Public Tools pages market **assessments BlueScale runs and delivers**. Do not publish operator tooling, CLIs, repos, or how scoring works. The posture scorecard page is a **“Request a scan”** CTA only (contact form). Other cards point to contact or related service pages.
+Public Assessments pages market **assessments BlueScale runs and delivers**. Do not publish operator tooling, CLIs, repos, or how scoring works. The posture scorecard page is a **“Request a scan”** CTA only (contact form). Other cards point to contact or related service pages.
 
 ## File map
 
@@ -143,7 +143,7 @@ web/
     assessment.html             # thin redirect → assessment-hardening
     hardening.html              # thin redirect → assessment-hardening
     backups.html                # thin redirect → ransomware-readiness
-  tools/
+  assessments/ (tools/ redirects)
     index.html
     posture-scorecard.html   # free request-a-scan CTA
 ```
