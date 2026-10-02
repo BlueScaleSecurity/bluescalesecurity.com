@@ -311,6 +311,32 @@ textarea:focus-visible {
   margin-bottom: 0.5rem;
 }
 
+/* Assessments under Services (IA subsection) */
+.assessments-subsection {
+  margin-top: 2.75rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--slate-200);
+}
+
+.assessments-subsection h2 {
+  margin: 0 0 0.75rem;
+  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+  letter-spacing: -0.02em;
+  color: var(--blue-900);
+}
+
+.assessments-subsection .intro {
+  margin: 0 0 1.25rem;
+  max-width: 40rem;
+  color: var(--slate-700);
+}
+
+.assessments-subsection .spotlight {
+  margin: 0 0 1.25rem;
+  max-width: 40rem;
+  color: var(--slate-700);
+}
+
 /* Cards */
 .card-grid {
   display: grid;
